@@ -1,0 +1,7 @@
+{
+    "rift.autostart": false,
+    "rift.riftPath": "~/.morph/env/bin/rift",
+    "rift.chatModel": "gpt4all:ggml-mpt-7b-chat",
+    "rift.codeEditModel": "ggml-replit-code-v1-3b",
+    "docker.commands.build": "${containerCommand} build --pull --rm -f \"${dockerfile}\" -t ${tag} \"${context}\""
+}
